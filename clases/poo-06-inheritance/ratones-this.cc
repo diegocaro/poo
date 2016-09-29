@@ -8,7 +8,7 @@ protected:
     int offx;
     int offy;
     string color;
-    Canvas *c;
+    Canvas c;
 public:
     Cabeza(int radio,Canvas *c,int offx,int offy){
         this->c = c;
