@@ -19,7 +19,8 @@ public:
     }
     
     ~Vector() {
-        //delete [] items;
+        cout << "Destructor ejecutado\n";
+        delete [] items;
     }
     
     Vector(int size) {
@@ -50,13 +51,13 @@ public:
 
 
 int main(int argc, char *argv[]) {
-    Vector arreglo(10);
+  /*  Vector arreglo(10);
     
     arreglo.set(0, -1); 
     cout << "arreglo.get(0) = "  << arreglo.get(0) << endl;
     arreglo.set(1, 2); 
     cout << "arreglo.get(1) = "  << arreglo.get(1) << endl;
-
+*/
     int N = 10000000;
     for(int i = 0; i < N; ++i) {
         cout << "i: " << i << "\n";
@@ -66,6 +67,6 @@ int main(int argc, char *argv[]) {
         }
     }
     
-    
+    cout << "esto está antes del return final\n"; 
     return 0;
 }
