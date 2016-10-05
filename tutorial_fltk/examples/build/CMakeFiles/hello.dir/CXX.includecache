@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/hello.cc
+FL/Fl.H
+-
+FL/Fl_Window.H
+-
+FL/Fl_Box.H
+-
+FL/Enumerations.H
+-
+FL/fl_draw.H
+-
+FL/x.H
+-
+

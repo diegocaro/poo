@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/click.cc
+FL/Fl.H
+-
+FL/Fl_Double_Window.H
+-
+FL/Fl_Scroll.H
+-
+FL/Fl_Box.H
+-
+FL/Fl_Pixmap.H
+-
+stdio.h
+-
+

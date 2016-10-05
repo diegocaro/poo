@@ -5,7 +5,23 @@ PROJECT(examples)
 FIND_PACKAGE(FLTK REQUIRED)
 FIND_PACKAGE(OpenGL REQUIRED)
 
-ADD_SUBDIRECTORY(click-n-drag)
-ADD_SUBDIRECTORY(hello)
-ADD_SUBDIRECTORY(input-output)
-ADD_SUBDIRECTORY(toggle-button)
+
+## Compilar hello.cc
+ADD_EXECUTABLE(hello hello.cc)
+TARGET_LINK_LIBRARIES(hello ${FLTK_LIBRARIES})
+TARGET_LINK_LIBRARIES(hello ${OPENGL_LIBRARIES})
+
+## Compilar click.cc
+ADD_EXECUTABLE(click click.cc)
+TARGET_LINK_LIBRARIES(click ${FLTK_LIBRARIES})
+TARGET_LINK_LIBRARIES(click ${OPENGL_LIBRARIES})
+
+## Compilar  input-output.cc
+ADD_EXECUTABLE( input-output  input-output.cc)
+TARGET_LINK_LIBRARIES( input-output ${FLTK_LIBRARIES})
+TARGET_LINK_LIBRARIES( input-output ${OPENGL_LIBRARIES})
+
+## Compilar hello.cc
+ADD_EXECUTABLE(toggle-button toggle-button.cc)
+TARGET_LINK_LIBRARIES(toggle-button ${FLTK_LIBRARIES})
+TARGET_LINK_LIBRARIES(toggle-button ${OPENGL_LIBRARIES})

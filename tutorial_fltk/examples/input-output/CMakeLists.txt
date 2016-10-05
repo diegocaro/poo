@@ -1,4 +1,0 @@
-ADD_EXECUTABLE(input-output input-output.cxx)
-
-TARGET_LINK_LIBRARIES(input-output ${FLTK_LIBRARIES})
-TARGET_LINK_LIBRARIES(input-output ${OPENGL_LIBRARIES})

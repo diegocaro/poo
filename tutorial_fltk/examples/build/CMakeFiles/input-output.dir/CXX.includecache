@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/input-output.cc
+iostream
+-
+FL/Fl.H
+-
+FL/Fl_window.H
+-
+FL/Fl_Button.H
+-
+FL/Fl_Input.H
+-
+FL/Fl_Output.H
+-
+cstdlib
+-
+
