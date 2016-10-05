@@ -1,6 +1,0 @@
-/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/build/CMakeFiles/edit_cache.dir
-/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/build/CMakeFiles/rebuild_cache.dir
-/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/build/CMakeFiles/click.dir
-/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/build/CMakeFiles/toggle-button.dir
-/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/build/CMakeFiles/input-output.dir
-/Users/diegocaro/Google Drive/poo/tutorial_fltk/examples/build/CMakeFiles/hello.dir
