@@ -22,9 +22,9 @@ public:
 };
 
 int main(int argc, char **argv) {
-  Fl_Window *window = new Fl_Window(400,400);
-  My_Box *box = new My_Box(50,50,300,300);
-  window->end();
-  window->show(argc, argv);
+  Fl_Window window(400,400);
+  My_Box box(50,50,300,300);
+  window.end();
+  window.show(argc, argv);
   return Fl::run();
 }
