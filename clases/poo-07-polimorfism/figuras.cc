@@ -1,3 +1,4 @@
+// Alerta, este codigo compila, pero no hace lo que debe
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -40,6 +41,7 @@ public:
 };
 
 double area_total(vector<Figura> & vf) {
+    // Alerta, este codigo compila, pero no hace lo que debe
     double area = 0;
     for(int i = 0; i < vf.size(); ++i) {
         area += vf[i].area();
@@ -48,6 +50,7 @@ double area_total(vector<Figura> & vf) {
 }
 
 int main() {
+    // Alerta, este codigo compila, pero no hace lo que debe
     vector<Figura> vf(3);
     
     Rectangulo r(-1, -1, 1, 1);
